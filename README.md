@@ -8,7 +8,7 @@ I worked on the I worked on the Multi-Class Prediction of Obesity Risk data set 
 The "best" model utilized the light gradient boost model with the following parameters: objective set to 'multiclassova'; metrics set ot multi_logloss; and number of classes set to the number of classes possible:7.  
 
 ### Scores
-The best average accuracy score on the training set with three-fold cross validation was 0.9711, and this led to a score on the validation set of 0.8990.  When applied to the test set, Kaggle reported a public score of 0.90715.
+The best average accuracy score on the training set with three-fold cross validation was 0.9711, and this led to a score on the validation set of 0.8990.  When this model was applied to the full training and validation set, it scored at 0.9531, and when refitted and then applied to the full training and validation sets, the score increased to 0.9606.  When applied to the test set, Kaggle reported a public score of 0.90715.
 
 ## Skills (Developed & Applied)
 Programming, Python, Statistics, Correlation Analysis, Numpy, Pandas, Matplotlib, Scikit-learn, Dataframes, Data Modeling, EDA, Data Visualization, Data Reporting, Multi-Class Classification, Classification, Supervised ML, Cross Validation, Grid search
